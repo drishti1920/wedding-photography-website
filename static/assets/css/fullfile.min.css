@@ -56,9 +56,6 @@
     content: "\e907"
 }
 
-.wb-facebook:before {
-    content: "\e908"
-}
 
 .wb-insta:before {
     content: "\e909"
@@ -66,7 +63,7 @@
 
 .wb-like:before {
     /* content: "\e90a" */
-    content: "\e90b"!important
+    content: "\e90b" !important
 }
 
 .wb-like-f:before {
@@ -2933,17 +2930,19 @@ label.error {
     z-index: 10;
     box-shadow: 0 1px 7px 2px #00000045;
     border-radius: 50%
-  }
-  @media (max-width:575px) {
+}
+
+@media (max-width:575px) {
     .backtotop {
-     display: none;
+        display: none;
     }
-  }
-  @media (min-width:575px) {
+}
+
+@media (min-width:575px) {
     .backtotop {
-      display: flex;
-     }
-  }
+        display: flex;
+    }
+}
 
 .backtotop span {
     transform: rotateY(-35deg)
@@ -3008,12 +3007,12 @@ label.error {
 
 @media (max-width:992px) {
     .c-logo {
-      top: auto;
-      bottom: 26px;
-      height: auto;
-      width: 115px
+        top: auto;
+        bottom: 26px;
+        height: auto;
+        width: 115px
     }
-  }
+}
 
 @media (max-width:768px) {
     .c-head span {
@@ -5179,7 +5178,8 @@ label.error {
     .blog-slider .swiper-wrapper .swiper-slide {
         width: 100%
     }
-    .about-team--single-data{
+
+    .about-team--single-data {
         white-space: nowrap;
     }
 }
@@ -5990,7 +5990,7 @@ label.error {
 .miles-like span {
     font-size: 26px;
     color: #d1d1d1;
-    z-index:100;
+    z-index: 100;
 }
 
 .miles--flower {
@@ -6184,6 +6184,7 @@ label.error {
     font-size: 16px;
     line-height: 24px
 }
+
 .blog-firsttitle {
 
     font-family: CormorantGaramond, sans-serif;
@@ -6377,6 +6378,7 @@ label.error {
     top: 0;
     background-color: rgba(245, 242, 238, .9)
 }
+
 .cform-bg-new::after {
     content: '';
     position: absolute;
@@ -6542,6 +6544,7 @@ label.error {
     flex-direction: column;
     gap: 20px
 }
+
 .tell-form-new {
     width: 75%;
     display: flex;
@@ -6668,18 +6671,21 @@ label.error {
 }
 
 @media (min-width:768px) {
-    .mb-view{
-        display: none!important;
+    .mb-view {
+        display: none !important;
     }
 }
+
 @media (max-width:767px) {
-    .desk-view{
-        display: none!important;
+    .desk-view {
+        display: none !important;
     }
-    .tell-form-new{
-        width :100%;
+
+    .tell-form-new {
+        width: 100%;
     }
 }
+
 /***************************************fab-speed-icons ********************************************/
 
 .adminactions {
@@ -6687,9 +6693,9 @@ label.error {
     bottom: 30px;
     right: 18px;
     z-index: 1000;
-  }
-  
-  .adminbutton {
+}
+
+.adminbutton {
     height: 60px;
     width: 60px;
     background-color: #5E5E5E;
@@ -6698,24 +6704,24 @@ label.error {
     color: #fff;
     text-align: center;
     position: relative;
-  
-  }
-  
-  .adminbutton i {
+
+}
+
+.adminbutton i {
     font-size: 22px;
-  }
-  
-  .adminbuttons {
+}
+
+.adminbuttons {
     position: absolute;
     width: 100%;
     bottom: 120%;
     text-align: center;
-  
-  }
-  
-  .adminbuttons a {
+
+}
+
+.adminbuttons a {
     display: flex;
-  
+
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -6727,40 +6733,40 @@ label.error {
     visibility: hidden;
     position: relative;
     box-shadow: 0 0 5px 1px rgb(51 51 51 / 10%);
-  }
-  
-  .adminbuttons a:hover {
+}
+
+.adminbuttons a:hover {
     transform: scale(1.05);
-  }
-  
-  .adminbuttons a:nth-child(1) {
+}
+
+.adminbuttons a:nth-child(1) {
     background-color: #ffffff;
     transition: opacity .2s ease-in-out .3s, transform .15s ease-in-out;
-  }
-  
-  .adminbuttons a:nth-child(2) {
+}
+
+.adminbuttons a:nth-child(2) {
     background-color: #ffffff;
     transition: opacity .2s ease-in-out .25s, transform .15s ease-in-out;
-  }
-  
-  .adminbuttons a:nth-child(3) {
+}
+
+.adminbuttons a:nth-child(3) {
     background-color: #ffffff;
     transition: opacity .2s ease-in-out .2s, transform .15s ease-in-out;
-  }
-  
-  .adminbuttons a:nth-child(4) {
+}
+
+.adminbuttons a:nth-child(4) {
     background-color: #ffffff;
     transition: opacity .2s ease-in-out .15s, transform .15s ease-in-out;
-  }
-  
-  .adminactions a i {
+}
+
+.adminactions a i {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
-  
-  .admintoggle {
+}
+
+.admintoggle {
     -webkit-appearance: none;
     position: absolute;
     border-radius: 50%;
@@ -6775,49 +6781,50 @@ label.error {
     z-index: 2;
     transition: box-shadow .2s ease-in-out;
     box-shadow: 0 3px 5px 1px rgba(51, 51, 51, .3);
-  }
-  
-  .admintoggle:hover {
+}
+
+.admintoggle:hover {
     box-shadow: 0 3px 6px 2px rgba(51, 51, 51, .3);
-  }
-  
-  .admintoggle:checked~.adminbuttons a {
+}
+
+.admintoggle:checked~.adminbuttons a {
     opacity: 1;
     visibility: visible;
-  }
-  
-  .img-section {
+}
+
+.img-section {
     margin: auto;
-  }
-  
-  .main-img-sec {
-  
+}
+
+.main-img-sec {
+
     margin: auto;
-  }
-  @media (max-width:575px) {
+}
+
+@media (max-width:575px) {
     .adminactions {
-    display: flex;
+        display: flex;
     }
-  }
-  @media (min-width:575px) {
+}
+
+@media (min-width:575px) {
     .adminactions {
-    display: none;
+        display: none;
     }
-  }
-  
-  
-  
-  /************************************ mobile-tell-us ***********************************/
-  
-  @media (max-width:575px) {
-    .mobile-view{
-  display: flex;
+}
+
+
+
+/************************************ mobile-tell-us ***********************************/
+
+@media (max-width:575px) {
+    .mobile-view {
+        display: flex;
     }
-  }
-  @media (min-width:575px) {
-    .mobile-view{
-  display: none;
+}
+
+@media (min-width:575px) {
+    .mobile-view {
+        display: none;
     }
-  }
-  
-    
+}
