@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27" height="27" viewBox="0 0 27 27">
+  <defs>
+    <radialGradient id="radial-gradient" cx="1.02" cy="0.02" r="2.309" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f9ed32"/>
+      <stop offset="0.36" stop-color="#ee2a7b"/>
+      <stop offset="0.44" stop-color="#d22a8a"/>
+      <stop offset="0.6" stop-color="#8b2ab2"/>
+      <stop offset="0.83" stop-color="#1b2af0"/>
+      <stop offset="0.88" stop-color="#002aff"/>
+    </radialGradient>
+  </defs>
+  <g id="_3-instagram" data-name="3-instagram" transform="translate(0 -0.461)">
+    <rect id="Rectangle_40" data-name="Rectangle 40" width="27" height="27" rx="11.2" transform="translate(27 27.461) rotate(180)" fill="url(#radial-gradient)"/>
+    <path id="Path_7206" data-name="Path 7206" d="M23.447,28.6h-10.3A5.149,5.149,0,0,1,8,23.447v-10.3A5.149,5.149,0,0,1,13.149,8h10.3A5.149,5.149,0,0,1,28.6,13.149v10.3A5.149,5.149,0,0,1,23.447,28.6ZM13.149,10.06a3.094,3.094,0,0,0-3.089,3.089v10.3a3.094,3.094,0,0,0,3.089,3.089h10.3a3.094,3.094,0,0,0,3.089-3.089v-10.3a3.094,3.094,0,0,0-3.089-3.089Z" transform="translate(-4.567 -4.567)" fill="#fff"/>
+    <path id="Path_7207" data-name="Path 7207" d="M24.235,30.071a5.835,5.835,0,1,1,5.835-5.835A5.835,5.835,0,0,1,24.235,30.071Zm0-9.611a3.776,3.776,0,1,0,3.776,3.776A3.776,3.776,0,0,0,24.235,20.46Z" transform="translate(-10.505 -10.505)" fill="#fff"/>
+    <circle id="Ellipse_723" data-name="Ellipse 723" cx="1.03" cy="1.03" r="1.03" transform="translate(18.536 7.208)" fill="#fff"/>
+  </g>
+</svg>
